@@ -1,0 +1,132 @@
+body, h2, p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+/* 
+
+
+
+*
+/
+/* Reset some default styles */
+
+
+/* Style the footer */
+footer {
+  background: #068787af;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Style the About Me section */
+.about-me {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the social media icons */
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  position: relative;
+}
+
+.social-links img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Add a glowing effect on hover */
+.social-links img:hover {
+  opacity: 1;
+  box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.893); /* Add a glowing shadow on hover */
+}
+
+a{
+  color: rgb(165, 9, 237);
+}
+a:hover{
+  color:rgb(17, 248, 232);
+  text-shadow: 2px 2px 10px whitesmoke;
+  text-decoration: none;
+}
